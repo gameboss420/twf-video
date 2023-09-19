@@ -13,6 +13,6 @@ $(document).ready(() => {
   let now = getDayFromDate(new Date());
     
   if(now >= cutoffLow && now <= cutoffHigh) {
-  	document.querySelector('#two').style.display = "block";
+  	document.querySelector('#one').style.display = "block";
   }
 });
